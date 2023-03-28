@@ -1,0 +1,199 @@
+body{
+    background: #000000;
+    scroll-behavior: smooth;
+}
+
+/* Start Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 50px;
+    width: 60%;
+    margin: 0 auto;
+    background: #262a568e;
+    border-radius: 50px;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    backdrop-filter: blur(15px);
+}
+
+@media(max-width: 767px){
+    nav{
+        width: 90%;
+        top: calc(100vh - 80px)
+    }
+}
+
+nav span{
+    display: block;
+}
+
+nav a{
+    text-decoration: none;
+    color: #B8621B;
+    transition: 0.3s ease;
+}
+
+nav a:hover{
+    color: #E3CCAE;
+}
+
+
+/* End Nav */
+
+
+/* Start Landing */
+
+
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+@media(max-width:767px){
+    .landing .text{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.landing .text h3{
+    color: #B8621B;
+    font-size: 40px;
+}
+
+@media(max-width:767px){
+    .landing .text h3{
+        font-size: 30px;
+    }
+}
+
+.landing .text h1{
+    color: #E3CCAE;
+    font-size: 70px;
+}
+
+@media(max-width:767px){
+    .landing .text h1{
+        font-size: 40px;
+    }
+}
+
+.landing .text h5{
+    color: #B8621B;
+    font-size: 25px;
+}
+
+@media(max-width:767px){
+    .landing .text h5{
+        font-size: 20px;
+    }
+}
+
+.landing .text h5 span{
+    color: #E3CCAE;
+}
+
+/* End Landing */
+
+/* Start Skills */
+
+.skills{
+
+}
+
+.skills .progress{
+    height: 35px;
+    border-radius: 20px;
+    background: #262A56;
+}
+
+.skills .progress .progress-bar{
+    background: #B8621B;
+}
+
+/* End Skills */
+
+/* Start Projects */
+
+.heading{
+    color: #B8621B;
+}
+
+.projects .card{
+    background: #262A56;
+}
+
+.projects .card .card-title{
+    color: #B8621B;
+}
+
+.projects .card .card-text{
+    color: #E3CCAE;
+}
+
+.projects .card a{
+    border-color: #B8621B;
+    color: #B8621B;
+    border-radius: 25px;
+}
+
+.projects .card a:hover{
+    background: #B8621B;
+    color: #E3CCAE;
+}
+
+/* End Projects */
+
+/* Start Contact */
+.contact .container form label{
+    color: #E3CCAE;
+}
+
+.contact .container form .btn{
+    border-color: #B8621B;
+    color: #B8621B;
+    border-radius: 25px;
+}
+.contact .container form .btn:hover{
+    background: #B8621B;
+    color: #E3CCAE;
+}
+
+@media(max-width:990px){
+    .contact .container .row .message i{
+        display: none;
+    }
+}
+
+@keyframes change{
+    0%{
+        font-size: 150px;
+    }
+    50%{
+        color: #E3CCAE;
+    }
+    100%{
+        font-size: 150px;
+    }
+}
+
+.contact .message i{
+    color: #B8621B;
+    font-size: 150px;
+    animation: change 1s infinite;
+}
+
+
+
+/* End Contact */
