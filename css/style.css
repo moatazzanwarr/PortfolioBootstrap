@@ -106,11 +106,24 @@ nav a:hover{
 
 /* End Landing */
 
+
+/* Start About */
+
+.about .container h1{
+    font-size: 30px;
+    color: #B8621B;
+}
+
+.about .container h1 span{
+    font-size: 40px;
+    color: #E3CCAE;
+}
+
+/* End About */
+
 /* Start Skills */
 
-.skills{
 
-}
 
 .skills .progress{
     height: 35px;
