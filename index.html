@@ -14,6 +14,8 @@
     />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/all.min.css" />
+    <!-- WOW JS -->
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Main Style Sheet -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -76,20 +78,20 @@
     <!-- Start Skills -->
 
     <section class="skills py-5 my-5" id="skills">
-      <h1 class="heading text-center my-5">Skills</h1>
+      <h1 class="heading text-center my-5 wow fadeInUp" data-wow-duration="2s" data-wow-offset="30">Skills</h1>
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="progress mb-3" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress mb-3 wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="30" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
               <div class="progress-bar" style="width: 90%">HTML 90%</div>
             </div>
-            <div class="progress mb-3" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress mb-3 wow slideInLeft" data-wow-duration="1s" data-wow-delay="2s" data-wow-offset="30" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
               <div class="progress-bar" style="width: 70%">CSS 70%</div>
             </div>
-            <div class="progress mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress mb-3 wow slideInLeft" data-wow-duration="1s" data-wow-delay="3s" data-wow-offset="30" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
               <div class="progress-bar" style="width: 75%">JAVASCRIPT 75%</div>
             </div>
-            <div class="progress mb-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress mb-3 wow slideInLeft" data-wow-duration="1s" data-wow-delay="4s" data-wow-offset="30" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
               <div class="progress-bar" style="width: 80%">BOOTSTRAP 80%</div>
             </div>
           </div>
@@ -103,8 +105,8 @@
     <section class="projects py-5" id="projects">
       <div class="container">
         <div class="row py-5 my-5">
-            <h1 class="text-center heading mb-5">Projects</h1>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+            <h1 class="text-center heading mb-5 wow fadeInUp " data-wow-duration="2s" data-wow-offset="30">Projects</h1>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-2 wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="30">
             <div class="card">
                 <img src="Images/1.png" class="card-img-top" alt="Store">
                 <div class="card-body text-center">
@@ -114,7 +116,7 @@
                 </div>
               </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-2 wow slideInDown" data-wow-duration="1s" data-wow-delay="2s" data-wow-offset="30">
             <div class="card">
                 <img src="Images/2.png" class="card-img-top" alt="Portfolio">
                 <div class="card-body text-center">
@@ -124,7 +126,7 @@
                 </div>
               </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-2 wow slideInRight" data-wow-duration="1s" data-wow-delay="3s" data-wow-offset="30">
             <div class="card">
                 <img src="Images/3.png" class="card-img-top" alt="HOAX">
                 <div class="card-body text-center">
@@ -142,24 +144,24 @@
     <!-- Start Contact -->
 
     <section class="contact py-5 my-5" id="contact">
-        <h1 class="text-center heading">Contact Us</h1>
+        <h1 class="text-center heading wow fadeInUp" data-wow-duration="2s" data-wow-offset="30">Contact Us</h1>
         <div class="container my-5">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-8 " >
                   <form action="" onsubmit="return check()" novalidate>
-                      <div class="mb-3">
+                      <div class="mb-3 wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="30">
                           <label for="name" class="form-label">Name</label>
                           <input type="email" name="name" class="form-control" id="name" placeholder="Your Name..">
                       </div>
-                      <div class="mb-3">
+                      <div class="mb-3 wow slideInLeft" data-wow-duration="1s" data-wow-delay="2s" data-wow-offset="30">
                           <label for="email" class="form-label">Email address</label>
                           <input type="email" name="email" class="form-control" id="email" placeholder="Your Email..">
                       </div>
-                      <div class="mb-3">
+                      <div class="mb-3 wow slideInLeft" data-wow-duration="1s" data-wow-delay="3s" data-wow-offset="30">
                           <label for="message" class="form-label">Message</label>
                           <textarea class="form-control" name="message" id="message" rows="5" placeholder="Your Message.."></textarea>
                       </div>
-                      <div class="text-center">
+                      <div class="text-center wow wobble" data-wow-duration="1s" data-wow-delay="4s" data-wow-offset="30">
                           <button type="submit" class="btn btn-outline-warning px-5">Send</button>
                       </div>
                   </form>
@@ -185,6 +187,10 @@
         backSpeed: 150,
         loop: true,
       });
+    </script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
     </script>
   </body>
 </html>
